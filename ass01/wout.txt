@@ -1,0 +1,90 @@
+output from graph_init_1():
+vertex1
+vertex2
+vertex3
+vertex4
+vertex5
+vertex6
+vertex1 vertex5 1.000
+vertex2 vertex4 4.000
+vertex3 vertex4 1.000
+vertex4 vertex5 1.000
+vertex5 vertex2 0.500
+vertex6 vertex2 5.500
+vertex2 (0.308)
+vertex4 (0.308)
+vertex5 (0.308)
+vertex1 (0.025)
+vertex3 (0.025)
+vertex6 (0.025)
+output from graph_init_2():
+vertex5
+vertex2
+vertex4
+vertex6
+vertex3
+vertex1
+vertex5 vertex2 1.500
+vertex2 vertex4 6.600
+vertex2 vertex6 2.600
+vertex2 vertex3 1.300
+vertex4 vertex5 4.000
+vertex6 vertex2 2.500
+vertex3 vertex4 2.200
+vertex1 vertex5 10.000
+vertex2 (0.313)
+vertex5 (0.225)
+vertex4 (0.210)
+vertex3 (0.114)
+vertex6 (0.114)
+vertex1 (0.025)
+vertexxxxxxxxxxxxxxxx
+vertexaaaaaaaaaaaaaaa
+vertexzaaaaaaaaaaaaaa
+vertex2
+vertex5
+vertex4
+vertex6
+vertex3
+vertex1
+vertexzxxxxxxxxxxxxxx
+vertexxxxxxxxxxxxxxxx vertexaaaaaaaaaaaaaaa 99.100
+vertex2 vertex4 6.600
+vertex2 vertex6 2.600
+vertex2 vertex3 1.300
+vertex5 vertex2 1.500
+vertex4 vertex5 4.000
+vertex6 vertex2 2.500
+vertex3 vertex4 2.200
+vertex1 vertex5 10.000
+vertexzxxxxxxxxxxxxxx vertex2 0.200
+vertexzxxxxxxxxxxxxxx vertex1 0.010
+vertex2 (0.232)
+vertex5 (0.178)
+vertex4 (0.153)
+vertex3 (0.093)
+vertex6 (0.093)
+vertexaaaaaaaaaaaaaaa (0.070)
+vertex1 (0.056)
+vertexxxxxxxxxxxxxxxx (0.042)
+vertexzaaaaaaaaaaaaaa (0.042)
+vertexzxxxxxxxxxxxxxx (0.042)
+output from graph_show_path:
+vertex1
+-> vertex5
+vertex1
+-> vertex5
+-> vertex2
+vertex1
+-> vertex5
+-> vertex2
+vertex1
+-> vertex5
+-> vertex2
+-> vertex4
+No path found.
+vertex1
+-> vertex5
+-> vertex2
+No path found.
+No path found.
